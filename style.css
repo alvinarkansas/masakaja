@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat";
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+    
+#header {
+    display: flex;
+    background-color: whitesmoke;
+    width: 100vw;
+    height: 60px;
+    position: fixed;
+    z-index: 2;
+}
+
+#header li {
+    display: inline-block;
+	justify-content: flex-end;
+    align-items: center;
+    margin: 0px 20px;
+}
+
+#header li:hover {color: tomato;}
+
+#logo {
+    width: 10vw;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav {
+    width: 90vw;
+    background-color: black;
+    text-align: right;
+    color: white;
+}
+
+#jumbotron {
+    width: 100vw;
+    background-image: url(img/jumbotron.jpg);
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+
+#jumbotron-layer-2{
+    background-color: black; 
+    width: 100vw; 
+    height: 600px; 
+    opacity: 0.5;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#jumbotron h1 {
+    
+    color: white;
+    text-align: center;
+    top: 250px;
+    font-size: 5vw;
+}
+
+#main-content {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+}
+
+.category {
+    width: 15vw;
+    height: 400px;
+    margin: 40px 20px;
+    border-radius: 10px;
+    background-size: cover;
+    color: white;
+}
+
+.category:hover {color: tomato;}
+
+#footer {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    width: 100vw;
+    height: 70px;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
